@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════════════════════════════
+         Widget Text Position Offsets
+         ═══════════════════════════════════════════════════════════════════
+         These dimensions control the position of text elements within
+         the home screen widgets. Themes can override these values to
+         reposition text to match their layout design.
+
+         Positive values shift the element in the direction of the
+         named axis (e.g. offset_top="4dp" moves text 4dp down).
+         Negative values shift in the opposite direction.
+
+         All values are in dp (density-independent pixels).
+         Remove or set to 0dp for default positioning.
+         ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- ── Widget 2x4 (Flip Clock Home) ──────────────────────────── -->
+    <dimen name="widget24_location_offset_left">0dp</dimen>
+    <dimen name="widget24_location_offset_top">0dp</dimen>
+    <dimen name="widget24_condition_offset_left">0dp</dimen>
+    <dimen name="widget24_condition_offset_top">0dp</dimen>
+    <dimen name="widget24_feelslike_offset_left">0dp</dimen>
+    <dimen name="widget24_feelslike_offset_top">0dp</dimen>
+    <dimen name="widget24_wind_offset_left">0dp</dimen>
+    <dimen name="widget24_wind_offset_top">0dp</dimen>
+    <dimen name="widget24_date_offset_right">0dp</dimen>
+    <dimen name="widget24_date_offset_top">0dp</dimen>
+    <dimen name="widget24_temp_offset_right">0dp</dimen>
+    <dimen name="widget24_temp_offset_top">0dp</dimen>
+    <dimen name="widget24_high_offset_right">0dp</dimen>
+    <dimen name="widget24_high_offset_top">0dp</dimen>
+    <dimen name="widget24_low_offset_right">0dp</dimen>
+    <dimen name="widget24_low_offset_top">0dp</dimen>
+    <dimen name="widget24_hightemp_offset_right">0dp</dimen>
+    <dimen name="widget24_hightemp_offset_top">0dp</dimen>
+    <dimen name="widget24_lowtemp_offset_right">0dp</dimen>
+    <dimen name="widget24_lowtemp_offset_top">0dp</dimen>
+
+    <!-- ── Widget 4x4 (Forecast) ────────────────────────────────── -->
+    <dimen name="widget44_location_offset_left">0dp</dimen>
+    <dimen name="widget44_location_offset_top">0dp</dimen>
+    <dimen name="widget44_condition_offset_left">0dp</dimen>
+    <dimen name="widget44_condition_offset_top">0dp</dimen>
+    <dimen name="widget44_feelslike_offset_left">0dp</dimen>
+    <dimen name="widget44_feelslike_offset_top">0dp</dimen>
+    <dimen name="widget44_wind_offset_left">0dp</dimen>
+    <dimen name="widget44_wind_offset_top">0dp</dimen>
+    <dimen name="widget44_date_offset_right">0dp</dimen>
+    <dimen name="widget44_date_offset_top">0dp</dimen>
+    <dimen name="widget44_temp_offset_right">0dp</dimen>
+    <dimen name="widget44_temp_offset_top">0dp</dimen>
+    <dimen name="widget44_high_offset_right">0dp</dimen>
+    <dimen name="widget44_high_offset_top">0dp</dimen>
+    <dimen name="widget44_low_offset_right">0dp</dimen>
+    <dimen name="widget44_low_offset_top">0dp</dimen>
+    <dimen name="widget44_hightemp_offset_right">0dp</dimen>
+    <dimen name="widget44_hightemp_offset_top">0dp</dimen>
+    <dimen name="widget44_lowtemp_offset_right">0dp</dimen>
+    <dimen name="widget44_lowtemp_offset_top">0dp</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This meta-data tag is REQUIRED for Sense Weather to discover this theme.
+         The value must match the "id" field in assets/manifest.json -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/theme_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SenseWeatherTheme">
+
+        <!-- Theme metadata for Sense Weather discovery -->
+        <meta-data
+            android:name="com.eugene373.sense.weather.THEME"
+            android:value="com.senseweather.theme.template" />
+
+        <!-- Theme info activity (no launcher icon - managed from Sense Weather app) -->
+        <activity
+            android:name=".ThemeInfoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SenseWeatherTheme" />
+
+    </application>
+
+</manifest>

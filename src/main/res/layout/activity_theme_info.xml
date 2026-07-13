@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1A1A1A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Theme Preview Icon -->
+        <ImageView
+            android:id="@+id/theme_preview"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/icon"
+            android:contentDescription="@string/theme_name" />
+
+        <!-- Theme Name -->
+        <TextView
+            android:id="@+id/theme_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/theme_name"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Theme Author -->
+        <TextView
+            android:id="@+id/theme_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/theme_author"
+            android:textSize="14sp"
+            android:textColor="#B4B4B4" />
+
+        <!-- Theme Description -->
+        <TextView
+            android:id="@+id/theme_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/theme_description"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Install Hint (shown when Sense Weather is not installed) -->
+        <TextView
+            android:id="@+id/install_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="@string/sense_weather_not_installed"
+            android:textSize="14sp"
+            android:textColor="#B4B4B4"
+            android:visibility="gone" />
+
+        <!-- Install Sense Weather Button -->
+        <Button
+            android:id="@+id/install_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/install_sense_weather"
+            android:textColor="#FFFFFFFF"
+            android:backgroundTint="#FF333333"
+            android:visibility="gone" />
+
+        <!-- Apply Theme Button -->
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply_theme"
+            android:textColor="#FFFFFFFF"
+            android:backgroundTint="#FF00BCD4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/tap_to_apply"
+            android:textSize="12sp"
+            android:textColor="#80FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

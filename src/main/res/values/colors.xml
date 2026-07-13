@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════════════════════════════
+         Ocean Breeze Theme — Color Overrides
+         ═══════════════════════════════════════════════════════════════════
+         These colors are resolved at runtime by ThemeManager.resolveColor().
+         Any color not defined here falls back to the app's hardcoded defaults.
+         Color names MUST match those used in SenseTheme.kt exactly.
+         ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- ── Brand / Accent Colors ──────────────────────────────────── -->
+    <color name="sense_green">#FF00BCD4</color>
+    <color name="sense_dark_green">#FF0097A7</color>
+
+    <!-- ── Background Colors ───────────────────────────────────────── -->
+    <color name="bg_day_start">#FF006064</color>
+    <color name="bg_day_end">#FF004D40</color>
+    <color name="bg_night_start">#FF002121</color>
+    <color name="bg_night_end">#FF001A1A</color>
+    <color name="bg_sunset_start">#FF1A0033</color>
+    <color name="bg_sunset_end">#FF4A148C</color>
+
+    <!-- ── Text Colors ─────────────────────────────────────────────── -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_shadow">#80000000</color>
+
+    <!-- ── Widget / Card Colors ────────────────────────────────────── -->
+    <color name="widget_bg">#CC004D40</color>
+    <color name="card_bg">#1AFFFFFF</color>
+    <color name="clock_card_bg">#FF00695C</color>
+    <color name="widget_text_color">#FFFFFFFF</color>
+</resources>

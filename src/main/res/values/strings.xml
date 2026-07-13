@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme identity (used by ThemeInfoActivity and Play Store) -->
+    <string name="app_name">Sense Weather — Ocean Breeze Theme</string>
+    <string name="theme_name">Ocean Breeze</string>
+    <string name="theme_author">Your Name</string>
+    <string name="theme_description">A cool ocean-inspired theme with teal and cyan tones.</string>
+
+    <!-- ThemeInfoActivity strings -->
+    <string name="tap_to_apply">Tap to apply this theme in Sense Weather</string>
+    <string name="sense_weather_not_installed">Sense Weather is not installed. Install it from the Play Store to use this theme.</string>
+    <string name="install_sense_weather">Install Sense Weather</string>
+    <string name="apply_theme">Apply Theme</string>
+    <string name="applied">Applied!</string>
+    <string name="theme_applied_success">Theme applied to Sense Weather</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         App String Overrides
+         ═══════════════════════════════════════════════════════════════════
+         These strings override the main app's strings when this theme is active.
+         Add any string you want to customize below. Missing strings fall back
+         to the app's defaults.
+         ═══════════════════════════════════════════════════════════════════ -->
+
+    <string name="widget_description">Clock with weather</string>
+    <string name="loading">Loading…</string>
+    <string name="search_hint">Search city…</string>
+    <string name="no_data">Tap to add location</string>
+    <string name="wind_format">%1$s %2$d km/h</string>
+    <string name="humidity_format">%d%%</string>
+    <string name="uv_format">UV %d</string>
+    <string name="last_updated">Updated %s</string>
+    <string name="pollen">Pollen</string>
+    <string name="pollen_index_format" formatted="false">%d %s</string>
+    <string name="high_low_format" formatted="false">H:%d° L:%d°</string>
+</resources>

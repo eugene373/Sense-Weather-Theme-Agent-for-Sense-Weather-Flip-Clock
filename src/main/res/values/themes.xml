@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for the ThemeInfoActivity (the launcher activity shown in Play Store).
+         This is separate from the app theme overrides below. -->
+    <style name="Theme.SenseWeatherTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/htc_green</item>
+        <item name="colorPrimaryDark">@color/htc_dark_green</item>
+        <item name="colorAccent">@color/htc_green</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

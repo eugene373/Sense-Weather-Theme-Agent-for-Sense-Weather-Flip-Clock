@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme override.
+         This replaces android:Theme.SenseWeather when the theme is active.
+         Theme XML is resolved by ThemeManager.resolveXml() / resolveLayout()
+         which looks up resources by name in the theme package. -->
+    <style name="Theme.SenseWeather" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/htc_green</item>
+        <item name="android:colorPrimaryDark">@color/bg_day_start</item>
+        <item name="android:colorAccent">@color/htc_green</item>
+        <item name="android:windowBackground">@color/bg_day_start</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

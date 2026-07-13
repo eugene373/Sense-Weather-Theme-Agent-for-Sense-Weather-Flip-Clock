@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <scale n0:duration="@android:integer/config_shortAnimTime" n0:pivotX="50.0%" n0:pivotY="0.0%" n0:fromXScale="1.0" n0:toXScale="0.3" n0:fromYScale="1.0" n0:toYScale="0.3"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <alpha n1:interpolator="@android:anim/accelerate_interpolator" n1:duration="@android:integer/config_shortAnimTime" n1:fromAlpha="1.0" n1:toAlpha="0.0"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</set>
