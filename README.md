@@ -119,8 +119,8 @@ To override a resource, name your resource in `colors.xml`, `drawables/`, etc., 
 ### 1. Color Keys (`res/values/colors.xml`)
 | Key | Purpose |
 | :--- | :--- |
-| `htc_green` | Primary brand accent color (Sense Green) |
-| `htc_dark_green` | Darker brand accent color |
+| `sense_green` | Primary brand accent color (Sense Green) |
+| `sense_dark_green` | Darker brand accent color |
 | `bg_day_start` | Starting color for the daytime background gradient |
 | `bg_day_end` | Ending color for the daytime background gradient |
 | `bg_night_start` | Starting color for the nighttime background gradient |
