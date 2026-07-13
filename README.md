@@ -3,7 +3,7 @@
 Welcome to the official developer guide for creating custom themes for Sense Weather. This guide provides an exhaustive reference for every resource, component, and system controlled by the Theme Engine.
 
 ## ⚖️ Legal & Licensing Notice (TCLA)
-By downloading, using, modifying, or compiling any asset within this repository, you explicitly acknowledge and agree to be automatically bound by the **Sense Weather Theme Creator License Agreement (TCLA)** located in the `LICENSE.md` file. 
+By downloading, using, modifying, or compiling any asset within this repository, you explicitly acknowledge and agree to be automatically bound by the **Sense Weather Theme Creator License Agreement (TCLA)** located in the `License Agreement (TCLA).md` file. 
 
 ### Key Developer Terms:
 * **Intellectual Property**: You retain the copyright ownership to your original custom artwork, icons, graphics, and typography styles.
