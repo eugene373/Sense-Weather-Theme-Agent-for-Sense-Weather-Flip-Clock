@@ -1,5 +1,5 @@
 # Sense Weather Theme Creator License Agreement (TCLA)
-**Effective Date: 07/15/2026**
+**Effective Date: 07/13/2026**
 
 ---
 
